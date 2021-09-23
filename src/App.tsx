@@ -8,13 +8,17 @@ const Header = styled.h1`
 	font-size: 4rem;
 `;
 
+const CustomButton = styled(Button)`
+	background-color: #722;
+`;
+
 function App(): JSX.Element {
 	return (
 		<div id="app">
 			<Header>It works!</Header>
-			<Button variant="contained" color="primary">
+			<CustomButton variant="contained" color="primary">
 				It works too!
-			</Button>
+			</CustomButton>
 		</div>
 	);
 }
